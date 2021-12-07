@@ -1,0 +1,80 @@
+
+.work-item__text-box{
+   display: flex;
+ margin-bottom: 25px;
+ align-items: center;
+}
+.work-item__text-date{
+   margin-right: 24px;
+   font-size: 18px;
+   line-height: 1;
+  width: 62px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+   background: #142850;
+   border-radius: 16px;
+   font-weight: 900;
+   color: #fff;
+}
+.work-item__text-tag{
+   font-size: 20px;
+   line-height: 26px;
+   font-weight: 400;
+   color: #8695A4;
+}
+.design-text__title{
+   max-width: 506px;
+   width: 100%;
+   font-size: 34px;
+   margin-bottom: 30px;
+}
+.work-item__text-date.design{
+   background: rgba(255, 124, 124, 1);
+}
+.work-item__text-box.design{
+margin-bottom: 25px;
+}
+.design-text__desc{
+   margin-bottom: 45px;
+   max-width: 680px;
+   width: 100%;
+   font-size: 16px;
+}
+.design1{
+   margin: 0 auto;
+   max-width: 680px;
+   width: 100%;
+   display: flex;
+   margin-bottom: 55px;
+}
+.heading-text__title{
+   font-family: 'Heebo';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 60px;
+}
+.heading-text__desc{
+   margin-bottom: 30px;
+   font-family: 'Heebo';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 23px;
+}
+.design2{
+   display: flex;
+   margin: 0 auto;
+   max-width: 680px;
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+@media(max-width:320px){
+   .design-text__title{
+      font-size: 28px;
+   }
+}

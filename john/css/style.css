@@ -1,0 +1,80 @@
+body,html{
+   overflow-x: hidden;
+}
+html,
+body,
+*{
+   box-sizing: border-box;
+}
+body{
+   font-family: 'heebo' , sens-serif;
+   font-size: 16px;
+   line-height: 23px;
+   color: #21243d;
+}
+.container{
+   max-width: 856px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+a{
+   text-decoration: none;
+   color: black;
+   transition: all 0.2s linear;
+}
+
+h1,
+.title-1{
+   font-weight: bold;
+   font-size: 44px;
+   line-height: 60px;
+}
+.title-2{
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 44px;
+
+}
+.title-3{
+   font-weight: bold;
+   font-size: 26px;
+   line-height: 38px;
+
+}
+.title-4{
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 30px;
+}
+
+.btn{
+   font-family: 'heebo' , sens-serif;
+   padding: 8px 20px;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 29px;
+   border: 1px solid #FF6464;
+   background-color: #FF6464;
+   color:#fff;
+   border-radius: 2px;
+   transition: all 0.2s linear;
+   cursor: pointer;
+}
+.btn:hover{
+   color: #FF6464;
+   background-color: #fff;
+}
+.btn:active{
+   border: 1px solid #963c3c;
+   color:#963c3c ;
+}
+   @media (max-widh: 767px){
+      .container{
+         padding: 0 10px;
+      }
+}
+   
+.container{
+      padding: 0 10px;
+   }

@@ -1,0 +1,29 @@
+/* header block */
+
+.header__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 27px 0;
+}
+.header__nav ul{
+   display: flex;
+}
+.header__nav ul li a:hover{
+   color: #FF6464;
+}
+.header__nav ul li:hover{
+   transform: translateY(-5px) ;
+}
+.header__nav ul li{
+   transition: all .2s linear;
+}
+.header__nav ul li:not(:last-child){
+   margin-right: 36px;
+}
+.header__logo{
+   font-size: 26px;
+   line-height: 32px;
+   font-weight: bold;
+   display: flex;
+}

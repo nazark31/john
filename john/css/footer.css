@@ -1,0 +1,33 @@
+/* footer */
+.footer{
+   padding: 50px 0;
+}
+.footer__inner{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer__nav{
+   margin-bottom: 26px;
+
+}
+.footer__nav ul{
+   display: flex;
+
+}
+.footer__nav ul li:not(:last-child){
+   margin-right: 34px;
+}
+.footer__nav ul li a{
+   display: flex;
+}
+.footer__text-inner{
+   font-family: Heebo;
+font-size: 14px;
+line-height: 21px;
+color: #21243D;
+margin-left:2px;
+}
+.footer{
+   background: #FFFFFF;
+}
